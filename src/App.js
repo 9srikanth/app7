@@ -3,11 +3,15 @@ import './App.css';
 import Computer from './Computer';
 import Mouse from './Mouse';
 import Keyboard from './Keyboard';
+import { Splender,Suziki,Royalefield, Duke, } from './Bikes';
 
 function App() {
   return (
     <div className="App">
-    <Keyboard/>
+    <Splender/>
+    <Suziki/>
+    <Royalefield/>
+    <Duke/>
     </div>
   );
 }
